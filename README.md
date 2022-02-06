@@ -23,6 +23,51 @@ The application consists of 6 pages:
 
 In the near future - the development of the profile page and the admin page.
 
-### 💻 Home
+### 🏠 Home
+
+![home](https://user-images.githubusercontent.com/95641884/152690126-3d34eb6f-097d-4436-b011-45aa35c900ba.png)
+
+---
+
+
+### 🍽 ProductList
+
+![products](https://user-images.githubusercontent.com/95641884/152690234-4dcb0a26-3717-4aa6-9b47-d9a62c59cdd8.png)
+
+---
+
+
+### 🥢 Product
+
+![product](https://user-images.githubusercontent.com/95641884/152690261-5068cd3f-adfd-45bb-a5ba-30a7d346ba72.png)
+
+---
+
+
+### 🛒 Cart
+
+![cart](https://user-images.githubusercontent.com/95641884/152690296-17cefffc-a292-4413-bf70-cf89980e412e.png)
+
+---
+
+
+### 🔏 Register 
+
+![register](https://user-images.githubusercontent.com/95641884/152690316-4129dfb6-d124-40f5-a4ff-e0ce394a67d2.png)
+
+---
+
+
+
+### 🗝 Login 
+
+![login](https://user-images.githubusercontent.com/95641884/152690376-2f1eaf42-7141-4586-aa5c-78b167bd2e81.png)
+
+---
+
+
+
+
+
 
 
