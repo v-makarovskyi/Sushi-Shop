@@ -1,0 +1,104 @@
+@import "../../global.scss";
+
+.sortContainer {
+    width: 100%;
+    padding: 20px;
+    margin-top: 30px;
+    .wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      .left {
+        .sortList {
+          list-style: none;
+          display: flex;
+  
+          &-left {
+            margin-right: 35px;
+            position: relative;
+            color: crimson;
+            font-size: 16px;
+            line-height: 43px;
+          }
+          &-left::after {
+            position: absolute;
+            top: 0;
+            right: -18px;
+            content: "/";
+          }
+  
+          &-right {
+            position: relative;
+            color: $titleColor;
+            font-size: 24px;
+            line-height: 43px;
+          }
+        }
+      }
+  
+      .right {
+        margin-right: 150px;
+        .sort {
+          padding: 10px;
+          position: relative;
+  
+          &-label {
+            display: flex;
+            align-items: center;
+            b {
+              margin-right: 10px;
+            }
+            span {
+              color: crimson;
+              border-bottom: 1px dashed crimson;
+              cursor: pointer;
+            }
+          }
+  
+          &-popup {
+              width: 170px;
+              position: absolute;
+              right: 0;
+              padding: 0 10px;
+              margin-top: 15px;
+              background-color: rgb(245, 236, 190);
+              color: #5e5e5e;
+              border-radius: 10px;
+              overflow: hidden;
+  
+              ul {
+                
+                  list-style: none;
+                  overflow: hidden;
+  
+                  li {
+                    width: 100%;
+                      padding: 15px 0px;
+                      cursor: pointer;
+                      transition: all .2s ease-in;
+  
+                      
+                      &:hover {
+                          color: #5e5e5e;
+                          font-weight: bold;
+                          font-size: 18px;
+                      }
+  
+                     
+                      &.active {
+                        color: crimson;
+                        font-weight: bold;
+                        font-size: 16px;
+                        
+                    }
+                  }
+              
+                  
+              }
+  
+          }
+        }
+      }
+    }
+  }

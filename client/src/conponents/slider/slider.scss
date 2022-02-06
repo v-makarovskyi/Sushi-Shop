@@ -1,0 +1,50 @@
+.sliderContainer {
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+
+  .arrow {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: orangered;
+    color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 2;
+    cursor: pointer;
+
+    &.left {
+      left: 30px;
+    }
+
+    &.right {
+      right: 30px;
+    }
+  }
+
+  .wrapper {
+    height: 100%;
+    display: flex;
+    transition: all 2s ease;
+
+    .slide {
+      width: 100vw;
+      display: flex;
+      align-items: center;
+
+      img {
+        height: 100%;
+        width: 100%;
+        margin: 0 50px;
+      }
+    }
+  }
+}

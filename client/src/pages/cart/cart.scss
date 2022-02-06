@@ -1,0 +1,139 @@
+@import "../../global.scss";
+
+.cartContainer {
+  height: 100%;
+  overflow: hidden;
+
+  .cart-empty {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fbedcf
+
+    p {
+      font-size: 30px;
+    }
+
+    .cart-svg {
+      color: red;
+    }
+  }
+
+  h2 {
+    padding: 50px;
+    color: $titleColor;
+    background-color: #fff;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .cartWrapper {
+    background-color: white;
+    padding: 5px 5px;
+
+    .cartBlock {
+      background-color: rgb(253, 251, 242);
+      .cart-top {
+        margin-bottom: 40px;
+        padding: 20px 40px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #000;
+
+        .cart-top-left {
+          width: 50%;
+
+          .cart-item-title {
+            p {
+              margin-left: 60px;
+              font-size: 24px;
+              color: $titleColor;
+            }
+          }
+        }
+
+        .cart-top-right {
+          margin-left: 72px;
+          width: 40%;
+          display: flex;
+          justify-content: space-around;
+
+          .cart-item-price {
+            margin-left: 30px;
+            font-size: 20px;
+            color: $titleColor;
+          }
+
+          .cart-item-quantity {
+            margin-left: 20px;
+            font-size: 20px;
+            color: $titleColor;
+          }
+
+          .cart-item-fullprice {
+            margin-right: 60px;
+            font-size: 20px;
+            color: $titleColor;
+          }
+        }
+      }
+
+      
+    }
+    .cart-summary {
+      margin: 20px 90px;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .cartBtn {
+        width: 200px;
+        padding: 15px;
+        border-radius: 10px;
+        border: none;
+        background-color: #ffb133;
+        color: crimson;
+        font-size: 14px;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+          background-color: crimson;
+          color: white;
+        }
+      }
+
+      .cart-summary-right {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+
+        .cart-summary-item {
+          margin-bottom: 10px;
+          display: flex;
+          justify-content: space-between;
+
+          .cart-symmary-text {
+            font-size: 20px;
+            color: $titleColor;
+            &.sum {
+              color: crimson;
+              font-size: 22px;
+            }
+          }
+
+          .summary-item-price {
+            font-size: 20px;
+            color: $titleColor;
+          }
+        }
+      }
+    }
+  }
+}

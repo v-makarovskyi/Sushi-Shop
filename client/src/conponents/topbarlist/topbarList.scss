@@ -1,0 +1,20 @@
+.menuItem {
+    margin-right: 40px;
+    font-size: 20px;
+    display: block;
+    cursor: pointer;
+
+    &:last-child {
+      color: crimson;
+      text-shadow: 1px 1px 1px crimson;
+    }
+
+    &.active {
+        color: lightgreen;
+        transform: scale(1.4);
+        transition: all .4s ease;
+    }
+
+    
+
+}
