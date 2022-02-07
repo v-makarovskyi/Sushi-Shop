@@ -65,6 +65,13 @@ In the near future - the development of the profile page and the admin page.
 
 ---
 
+### 🎥 demo
+
+
+
+https://user-images.githubusercontent.com/95641884/152748984-efbd6eac-2b00-4394-bc89-aeaa9149a211.mp4
+
+
 
 
 
